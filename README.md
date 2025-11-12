@@ -27,27 +27,26 @@ Learn <module_name> the right way — concept by concept, with real-world exampl
 ## 🗂️ Repository Structure
 
 
-<ModuleName>_Notes/
+📘 <ModuleName>_Notes/
 │
-├── 📘 01_Theory/
-│ ├── introduction.md
-│ ├── key_concepts.md
+├── 01_Theory/
+│   ├── introduction.md
+│   ├── key_concepts.md
 │
-├── 💻 02_Implementation/
-│ ├── examples.sql (or .py / .ipynb)
-│ ├── case_study.md
+├── 02_Implementation/
+│   ├── examples.sql            # or .py / .ipynb
+│   ├── case_study.md
 │
-├── 🧩 03_Assignments/
-│ ├── set1_basic.sql
-│ ├── set2_advanced.sql
+├── 03_Assignments/
+│   ├── set1_basic.sql
+│   ├── set2_advanced.sql
 │
-├── 🧮 04_Interview_Questions/
-│ ├── topicwise_questions.md
+├── 04_Interview_Questions/
+│   ├── topicwise_questions.md
 │
-└── 📚 05_Resources/
-├── references_links.md
-├── certification_links.md
-
+└── 05_Resources/
+    ├── references_links.md
+    ├── certification_links.md
 
 ---
 
@@ -72,7 +71,7 @@ CREATE TABLE employees (
     dept VARCHAR(30),
     CHECK (salary > 0)
 );
-
+```
 
 ✅ Explanation:
 
